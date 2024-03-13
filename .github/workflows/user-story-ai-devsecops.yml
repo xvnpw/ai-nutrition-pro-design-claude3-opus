@@ -36,9 +36,10 @@ jobs:
           input_architecture_threat_model_file: "ARCHITECTURE_SECURITY.md"
           temperature: 0.2
           verbose: true
-          model: "gpt-4"
+          provider: 'openrouter'
+          model: 'anthropic/claude-3-opus'
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
