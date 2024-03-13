@@ -18,7 +18,7 @@ jobs:
     name: Run ai threat modeling action for architecture analysis
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Generate architecture threat model
         uses: xvnpw/ai-threat-modeling-action@v1.3.1
         with:
