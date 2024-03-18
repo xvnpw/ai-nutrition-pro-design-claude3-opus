@@ -1,6 +1,6 @@
 # Architecture
 
-This document outlines the architecture of the AI Nutrition-Pro application.
+This document outlines the architecture of the AI Nutrition-Pro application
 
 ## Containers Context diagram
 
